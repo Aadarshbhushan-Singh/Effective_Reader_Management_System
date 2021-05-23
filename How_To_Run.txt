@@ -1,0 +1,5 @@
+1) Download the whole project and open it in eclipse.
+2) Add all the required jar files. All the required jar files are already given in the folder.
+3) Go to src-> project-> ConnectionProvider.java and change the name and password for the mysql server.
+4) Open 9_Effective_Reader_Management_System.sql in mysql and run all the commands.
+5) Now open Login_Page.java and enter "admin" in both username and password.
