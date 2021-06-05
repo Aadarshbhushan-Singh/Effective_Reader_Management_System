@@ -198,7 +198,7 @@ public class Home_Page extends JFrame {
 		panelMessage.add(txtpnThisSoftwareIs);
 		
 		JLabel lblNewLabel_1 = new JLabel("New label");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\background_image.jpg"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\background_image.jpg"));
 		lblNewLabel_1.setBounds(0, 0, 1539, 864);
 		contentPane.add(lblNewLabel_1);
 	}

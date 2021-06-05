@@ -3,3 +3,9 @@
 3) Go to src-> project-> ConnectionProvider.java and change the name and password for the mysql server.
 4) Open 9_Effective_Reader_Management_System.sql in mysql and run all the commands.
 5) Now open Login_Page.java and enter "admin" in both username and password.
+6) You will have to configure the icons there. On the login page, on the left side there will be written new label. Go to design
+	and select the correct icons from the icons folder. 
+
+Incase of any problem you can contact me through Whatsapp: 
+Nepal: +9779816306875
+India: +917634868809
