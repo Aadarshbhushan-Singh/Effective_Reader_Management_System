@@ -96,7 +96,7 @@ public class Show_Available_Students extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnClose.setBounds(744, 556, 115, 35);
 		contentPane.add(btnClose);

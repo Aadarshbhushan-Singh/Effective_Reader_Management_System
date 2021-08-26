@@ -119,7 +119,7 @@ public class Return_Book extends JFrame {
 				}
 			}
 		});
-		btnReturn.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\return book png.png"));
+		btnReturn.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\return book png.png"));
 		btnReturn.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnReturn.setBounds(257, 414, 156, 59);
 		contentPane.add(btnReturn);
@@ -130,7 +130,7 @@ public class Return_Book extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnClose.setBounds(423, 414, 124, 59);
 		contentPane.add(btnClose);
@@ -174,7 +174,7 @@ public class Return_Book extends JFrame {
 				}
 			}
 		});
-		btnSearch.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\search.png"));
+		btnSearch.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\search.png"));
 		btnSearch.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnSearch.setBounds(257, 238, 130, 32);
 		contentPane.add(btnSearch);

@@ -225,7 +225,7 @@ public class New_Student extends JFrame {
 			}
 		});
 		btnSave.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnSave.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\save-icon--1.png"));
+		btnSave.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\save-icon--1.png"));
 		btnSave.setBounds(269, 486, 124, 40);
 		contentPane.add(btnSave);
 		
@@ -236,7 +236,7 @@ public class New_Student extends JFrame {
 			}
 		});
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnClose.setBounds(414, 486, 124, 40);
 		contentPane.add(btnClose);
 		

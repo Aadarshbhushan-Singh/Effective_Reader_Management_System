@@ -130,13 +130,13 @@ public class Return_Read_Book extends JFrame {
 				}
 			}
 		});
-		btnReturn.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\return book png.png"));
+		btnReturn.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\return book png.png"));
 		btnReturn.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnReturn.setBounds(274, 369, 156, 59);
 		contentPane.add(btnReturn);
 		
 		JButton btnClose = new JButton("Close");
-		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnClose.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);
@@ -147,6 +147,7 @@ public class Return_Read_Book extends JFrame {
 		contentPane.add(btnClose);
 		
 		JButton btnSearch = new JButton("Search");
+		btnSearch.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\search.png"));
 		btnSearch.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String bookId=txtBookId.getText();

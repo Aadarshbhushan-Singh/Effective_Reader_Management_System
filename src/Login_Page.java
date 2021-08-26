@@ -97,7 +97,7 @@ public class Login_Page extends JFrame {
 		});
 		btnLogin.setBounds(296, 189, 121, 49);
 		panel.add(btnLogin);
-		btnLogin.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\login.png"));
+		btnLogin.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\login.png"));
 		btnLogin.setFont(new Font("Tahoma", Font.BOLD, 18));
 		
 		JButton btnClose = new JButton("Close");
@@ -108,7 +108,7 @@ public class Login_Page extends JFrame {
 		});
 		btnClose.setBounds(456, 189, 121, 49);
 		panel.add(btnClose);
-		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 18));
 		
 		JLabel lblNewLabel_1 = new JLabel("New label");

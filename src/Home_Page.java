@@ -69,7 +69,7 @@ public class Home_Page extends JFrame {
 		});
 		btnNewBook.setBounds(31, 95, 223, 65);
 		panelButtons.add(btnNewBook);
-		btnNewBook.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\New book.png"));
+		btnNewBook.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\New book.png"));
 		btnNewBook.setFont(new Font("Tahoma", Font.BOLD, 16));
 		
 		JButton btnIssueBooks = new JButton("Issue Books");
@@ -81,7 +81,7 @@ public class Home_Page extends JFrame {
 		});
 		btnIssueBooks.setBounds(31, 170, 223, 65);
 		panelButtons.add(btnIssueBooks);
-		btnIssueBooks.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\issue.png"));
+		btnIssueBooks.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\issue book.png"));
 		btnIssueBooks.setFont(new Font("Tahoma", Font.BOLD, 16));
 		
 		JButton btnReadNow = new JButton("Read Now");
@@ -93,7 +93,7 @@ public class Home_Page extends JFrame {
 		});
 		btnReadNow.setBounds(31, 245, 223, 65);
 		panelButtons.add(btnReadNow);
-		btnReadNow.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\issue.png"));
+		btnReadNow.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\issue book.png"));
 		btnReadNow.setFont(new Font("Tahoma", Font.BOLD, 16));
 		
 		JButton btnReturnBooks = new JButton("Return Books");
@@ -105,7 +105,7 @@ public class Home_Page extends JFrame {
 		});
 		btnReturnBooks.setBounds(31, 320, 223, 65);
 		panelButtons.add(btnReturnBooks);
-		btnReturnBooks.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\return book png.png"));
+		btnReturnBooks.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\return book png.png"));
 		btnReturnBooks.setFont(new Font("Tahoma", Font.BOLD, 16));
 		
 		JButton btnShowData = new JButton("Show Data");
@@ -117,7 +117,7 @@ public class Home_Page extends JFrame {
 		});
 		btnShowData.setBounds(31, 395, 223, 65);
 		panelButtons.add(btnShowData);
-		btnShowData.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\Statics.png"));
+		btnShowData.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\Statics.png"));
 		btnShowData.setFont(new Font("Tahoma", Font.BOLD, 16));
 		
 		JButton btnAlert = new JButton("Alert");
@@ -129,7 +129,7 @@ public class Home_Page extends JFrame {
 		});
 		btnAlert.setBounds(31, 470, 223, 65);
 		panelButtons.add(btnAlert);
-		btnAlert.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\alert.png"));
+		btnAlert.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\alert.png"));
 		btnAlert.setFont(new Font("Tahoma", Font.BOLD, 16));
 		
 		JButton btnNewStudent = new JButton("New Student");
@@ -142,7 +142,7 @@ public class Home_Page extends JFrame {
 				
 			}
 		});
-		btnNewStudent.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\member-add-on-300x300.png"));
+		btnNewStudent.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\member-add-on-300x300.png"));
 		btnNewStudent.setFont(new Font("Tahoma", Font.BOLD, 16));
 		
 		JButton btnDeleteBook = new JButton("Delete Book\r\n");
@@ -152,7 +152,7 @@ public class Home_Page extends JFrame {
 				new Delete_Book().setVisible(true);
 			}
 		});
-		btnDeleteBook.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnDeleteBook.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnDeleteBook.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnDeleteBook.setBounds(31, 545, 223, 65);
 		panelButtons.add(btnDeleteBook);
@@ -164,7 +164,7 @@ public class Home_Page extends JFrame {
 				new Delete_Students().setVisible(true);
 			}
 		});
-		btnDeleteStudent.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnDeleteStudent.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnDeleteStudent.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnDeleteStudent.setBounds(31, 620, 223, 65);
 		panelButtons.add(btnDeleteStudent);
@@ -178,7 +178,7 @@ public class Home_Page extends JFrame {
 				new Login_Page().setVisible(true);
 			}
 		});
-		btnLogOut.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\exit.png"));
+		btnLogOut.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\exit.png"));
 		btnLogOut.setFont(new Font("Tahoma", Font.BOLD, 16));
 		
 		

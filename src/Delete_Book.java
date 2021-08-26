@@ -129,6 +129,7 @@ public class Delete_Book extends JFrame {
 		contentPane.add(txtPrice);
 		
 		JButton btnDelete = new JButton("Delete");
+		btnDelete.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnDelete.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String bookId=txtBookId.getText();
@@ -163,7 +164,7 @@ public class Delete_Book extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnClose.setBounds(402, 453, 124, 40);
 		contentPane.add(btnClose);
@@ -203,7 +204,7 @@ public class Delete_Book extends JFrame {
 				}
 			}
 		});
-		btnSearch.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\search.png"));
+		btnSearch.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\search.png"));
 		btnSearch.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnSearch.setBounds(257, 137, 127, 34);
 		contentPane.add(btnSearch);

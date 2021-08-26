@@ -143,7 +143,7 @@ public class Read_Now extends JFrame {
 				}
 			}
 			});
-		btnIssue.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\issue.png"));
+		btnIssue.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\issue book.png"));
 		btnIssue.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnIssue.setBounds(278, 371, 156, 59);
 		contentPane.add(btnIssue);
@@ -154,7 +154,7 @@ public class Read_Now extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnClose.setBounds(444, 371, 124, 59);
 		contentPane.add(btnClose);
@@ -183,6 +183,7 @@ public class Read_Now extends JFrame {
 		contentPane.add(btnData);
 		
 		JButton btnReturn = new JButton("Return");
+		btnReturn.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\return-book-1-560407.png"));
 		btnReturn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);

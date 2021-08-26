@@ -55,6 +55,7 @@ public class Delete_Students extends JFrame {
 	public Delete_Students() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(700, 150, 624, 585);
+		setUndecorated(true);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -215,11 +216,12 @@ public class Delete_Students extends JFrame {
 			}
 		});
 		btnSearch.setFont(new Font("Tahoma", Font.BOLD, 16));
-		btnSearch.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\search.png"));
+		btnSearch.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\search.png"));
 		btnSearch.setBounds(263, 146, 115, 30);
 		contentPane.add(btnSearch);
 		
 		JButton btnDelete = new JButton("Delete");
+		btnDelete.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnDelete.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String regNo=txtRegNo.getText();
@@ -254,7 +256,7 @@ public class Delete_Students extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setIcon(new ImageIcon("D:\\VIT\\Programming_Files\\Java_Projects_Eclipse\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnClose.setBounds(409, 481, 124, 40);
 		contentPane.add(btnClose);
