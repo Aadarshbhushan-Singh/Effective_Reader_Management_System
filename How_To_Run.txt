@@ -1,3 +1,5 @@
+Follow the steps below to run this project:
+
 1) Download the whole project and open it in eclipse.
 2) Add all the required jar files. All the required jar files are already given in the folder.
 3) Go to src-> project-> ConnectionProvider.java and change the name and password for the mysql server.
